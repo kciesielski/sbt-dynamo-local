@@ -7,13 +7,8 @@ name := "sbt-dynamo-local"
 
 resolvers += "sonatype-releases" at "https://oss.sonatype.org/content/repositories/releases/"
 
-val akkaVersion = "2.3.12"
-val akkaStreamVersion = "1.0"
-val curatorVersion = "2.9.0"
-
 val dependencies = Seq(
-  "com.jcabi" % "DynamoDBLocal" % "2015-07-16",
-  "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+  "com.jcabi" % "DynamoDBLocal" % "2015-07-16"
 )
 
 val baseSettings =

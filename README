@@ -1,0 +1,6 @@
+SBT DynamoDB plugin
+===================
+
+Starts in-memory DynamoDB before tests (on port 8000).  
+Usage: Add following line to `project/plugins.sbt`:  
+`addSbtPlugin("com.softwaremill.build" % "sbt-dynamo-local" % "1.0")`
